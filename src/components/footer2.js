@@ -15,7 +15,7 @@ export default function Footer() {
             <Link to="/" onClick={scrollToTop}  className="flex items-center mb-10 no-underline">
               <img
                 src="logo192.png"
-                className="h-[60px] w-[60px] mr-3"
+                className="h-[80px] w-[100px] mr-3"
                 alt="Atlas Gym Logo"
                 loading="lazy"
               /><span className="no-underline text-red-500 mt-8 text-2xl ">Kashi Event & Caterers</span>
@@ -87,7 +87,8 @@ export default function Footer() {
               <ul className="text-gray-400 -mx-6 font-medium">
                 <li className="mb-4">
                   <p  className="hover:underline text-green-400">
-                  kvivek409@gmail.com
+                  kashieventandcaterers@gmail.com
+
                   </p>
                 </li>
                 <li className="flex items-center justify-center ">
@@ -104,7 +105,7 @@ export default function Footer() {
                   </p>
                 <li>
                   <p  className="hover:underline pt-2">
-                 Koat bazar,Sitamarhi
+                 Makhan Sonar Road , Near RaghuLeela Resort , Sitamarhi
                   </p>
                 </li>
               </ul>

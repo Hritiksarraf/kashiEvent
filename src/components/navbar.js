@@ -18,8 +18,9 @@ const Navbar = () => {
     <nav className={`bg-gradient-to-r to-[#aa9c66] from-[#584D3C] z-50 backdrop-filter backdrop-blur-lg sticky top-0 w-screen h-16 md:h-20 duration-500 ${!open ? "":"h-screen "} z-2`} style={{zIndex:"50000"}} >
       <div className='flex items-center font-medium justify-around'>
         <div className=' md:w-auto  w-full'>
-          <img src="logo192.png" alt="" className='h-9 -mb-4 lg:my-0 px-10  lg:pb-0 '/>
-
+          <Link to='/'>
+          <img src="logo192.png" alt="" className='h-[4.2rem] -mb-4 lg:my-0 px-10  lg:pb-0 '/>
+          </Link>
         </div>
         <div className='text-3xl px-4 mt-3 md:hidden'  onClick={()=>setOpen(!open)}>
         <ion-icon  name={`${open ? 'close' : 'menu'}`}></ion-icon>

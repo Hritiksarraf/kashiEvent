@@ -25,7 +25,7 @@ export default function CardStak() {
     />
     <Card 
         title="Birthday Party" 
-        img="https://media.istockphoto.com/id/1452683187/photo/happy-girl-celebrating-her-birthday-party-at-home-with-her-close-friends-in-india-indian-model.jpg?s=612x612&w=0&k=20&c=mXnxg942yPTmsSpRgRJAyl5Z_DVlPdcmy-RgMDrxyh4=" 
+        img="https://media.istockphoto.com/id/1643695903/photo/happy-indian-asian-family-or-friends-celebrate-birthday-eat-cake-holidays-and-people-concept.jpg?s=612x612&w=0&k=20&c=xrWg4qI4m55ZEwALj8AF2BhkxCFIY71i6b-I53BkOyE=" 
         des="Make birthdays unforgettable with custom decorations, exciting themes, and exceptional service. We bring your party vision to life."
     />
     <Card 
@@ -35,7 +35,7 @@ export default function CardStak() {
     />
     <Card 
         title="Catering and Many More" 
-        img="https://res.cloudinary.com/hritiksarraf/image/upload/v1730064839/08_ju471z.jpg" 
+        img="https://res.cloudinary.com/dun3dkqst/image/upload/v1730139902/03_b9af59.jpg" 
         des="Indulge in our exquisite catering services, featuring diverse menus crafted to perfection for any occasion. Let us elevate your event experience."
     />
 </div>

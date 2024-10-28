@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const imageUrls = [
   {
@@ -72,23 +72,80 @@ const imageUrls = [
 ];
 
 export default function Gallery2() {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const openModal = (index) => {
+    setCurrentImageIndex(index);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const showNextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
+  };
+
+  const showPreviousImage = () => {
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + imageUrls.length) % imageUrls.length
+    );
+  };
+
   return (
-    <div className="flex flex-wrap justify-center gap-4 ">
-      <div className="text-yellow-900  text-center pt-4 ">
-        <p className="text-4xl lg:text-6xl md:block ">
-          Marriage memories collection!!
-        </p>
+    <div className="flex flex-wrap justify-center gap-4">
+      <div className="text-yellow-900 text-center pt-4">
+        <p className="text-4xl lg:text-6xl md:block">Marriage memories collection!!</p>
       </div>
       <div className="flex flex-wrap justify-center gap-4 pb-10">
         {imageUrls.map((image, index) => (
           <img
             key={index}
             src={image.imgUrl}
-            alt={`Gallery  ${index + 1}`}
-            className="rounded-md shadow-md w-[90vw] object-cover md:w-[25vw] transition-transform transform hover:scale-105"
+            alt={`Gallery ${index + 1}`}
+            onClick={() => openModal(index)}
+            className="rounded-md shadow-md w-[90vw] object-cover md:w-[25vw] transition-transform transform hover:scale-105 cursor-pointer"
           />
         ))}
       </div>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+          {/* Close Button */}
+          <button
+            onClick={closeModal}
+            className="absolute top-8 right-8 text-white text-5xl font-bold bg-black bg-opacity-70 p-3 rounded-full hover:bg-opacity-90"
+          >
+            &times;
+          </button>
+
+          {/* Image */}
+          <div className="relative max-w-screen-lg flex justify-center items-center">
+            <img
+              src={imageUrls[currentImageIndex].imgUrl}
+              alt={`Gallery ${currentImageIndex + 1}`}
+              className="w-full max-h-[80vh] object-contain"
+            />
+          </div>
+
+          {/* Navigation Buttons */}
+          <button
+            onClick={showPreviousImage}
+            className="absolute md:bottom-10 left-4 text-white text-3xl font-bold bg-black bg-opacity-70 p-4 rounded-full hover:bg-opacity-90"
+          >
+            &#9664;
+          </button>
+          <button
+            onClick={showNextImage}
+            className="absolute bottom-10 right-4 text-white text-3xl font-bold bg-black bg-opacity-70 p-4 rounded-full hover:bg-opacity-90"
+          >
+            &#9654;
+          </button>
+        </div>
+      )}
     </div>
   );
 }

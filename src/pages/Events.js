@@ -22,7 +22,7 @@ export default function Events() {
     />
     <Product 
         heading="Birthday Party" 
-        img='https://media.istockphoto.com/id/1452683187/photo/happy-girl-celebrating-her-birthday-party-at-home-with-her-close-friends-in-india-indian-model.jpg?s=612x612&w=0&k=20&c=mXnxg942yPTmsSpRgRJAyl5Z_DVlPdcmy-RgMDrxyh4=' 
+        img='https://media.istockphoto.com/id/1643695903/photo/happy-indian-asian-family-or-friends-celebrate-birthday-eat-cake-holidays-and-people-concept.jpg?s=612x612&w=0&k=20&c=xrWg4qI4m55ZEwALj8AF2BhkxCFIY71i6b-I53BkOyE=' 
         description="Plan a memorable birthday party in Sitamarhi, Bihar. We offer themed decorations, catering, and entertainment for all ages, ensuring a joyful celebration for everyone."
     />
     <Product 

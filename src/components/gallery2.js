@@ -15,11 +15,14 @@ const imageUrls = [
     imgUrl:
       "https://res.cloudinary.com/hritiksarraf/image/upload/v1730064839/08_ju471z.jpg",
   },
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186843/WhatsApp_Image_2024-10-29_at_08.04.06_1_br7k83.jpg"},
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139906/01_vbsigo.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139904/02_bqhgdi.jpg" },
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186841/WhatsApp_Image_2024-10-29_at_08.04.06_uvln7j.jpg"},
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139902/03_b9af59.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139901/04_mzyksd.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139901/05_gppj01.jpg" },
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186847/WhatsApp_Image_2024-10-29_at_08.04.05_n7niia.jpg"},
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139901/07_kamejs.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139900/06_yjt9dl.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139899/09_xenxyi.jpg" },
@@ -69,6 +72,13 @@ const imageUrls = [
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139840/80_r6qyqd.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139839/84_vdafsi.jpg" },
   { imgUrl: "https://res.cloudinary.com/dun3dkqst/image/upload/v1730139839/85_ts51lr.jpg" },
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186847/WhatsApp_Image_2024-10-29_at_08.04.05_n7niia.jpg"},
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186844/WhatsApp_Image_2024-10-28_at_23.22.27_zrawzm.jpg"},
+  
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186842/WhatsApp_Image_2024-10-28_at_23.22.27_1_jrsorj.jpg"},
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186841/WhatsApp_Image_2024-10-29_at_08.04.06_uvln7j.jpg"},
+  {imgUrl:"https://res.cloudinary.com/dun3dkqst/image/upload/v1730186841/WhatsApp_Image_2024-10-28_at_23.22.27_2_reta6h.jpg"},
+
 ];
 
 export default function Gallery2() {
@@ -107,8 +117,9 @@ export default function Gallery2() {
             src={image.imgUrl}
             alt={`Gallery ${index + 1}`}
             onClick={() => openModal(index)}
-            className="rounded-md shadow-md w-[90vw] object-cover md:w-[25vw] transition-transform transform hover:scale-105 cursor-pointer"
+            className="rounded-md shadow-md w-[90vw] h-auto object-cover md:w-[25vw] transition-transform transform hover:scale-105 cursor-pointer"
           />
+          
         ))}
       </div>
 

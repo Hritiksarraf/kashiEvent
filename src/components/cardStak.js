@@ -15,7 +15,7 @@ export default function CardStak() {
     />
     <Card 
         title="Reception" 
-        img="https://www.haringphotography.com/wp-content/uploads/2022/09/Tampa-Indian-Wedding-Photos-Hilton-Downtown-11.jpeg" 
+        img="https://res.cloudinary.com/dun3dkqst/image/upload/v1730186204/bb72090d075472991190dce58a67f967_qbpob3.jpg" 
         des="Host a beautiful reception with our expert planning services, ensuring a stunning setting, delicious cuisine, and seamless flow for you and your guests."
     />
     <Card 
@@ -25,7 +25,7 @@ export default function CardStak() {
     />
     <Card 
         title="Birthday Party" 
-        img="https://media.istockphoto.com/id/1643695903/photo/happy-indian-asian-family-or-friends-celebrate-birthday-eat-cake-holidays-and-people-concept.jpg?s=612x612&w=0&k=20&c=xrWg4qI4m55ZEwALj8AF2BhkxCFIY71i6b-I53BkOyE=" 
+        img="https://res.cloudinary.com/dun3dkqst/image/upload/v1730186269/istockphoto-1643695903-612x612_xyk4du.jpg" 
         des="Make birthdays unforgettable with custom decorations, exciting themes, and exceptional service. We bring your party vision to life."
     />
     <Card 
@@ -35,7 +35,7 @@ export default function CardStak() {
     />
     <Card 
         title="Catering and Many More" 
-        img="https://res.cloudinary.com/dun3dkqst/image/upload/v1730139902/03_b9af59.jpg" 
+        img="https://res.cloudinary.com/dun3dkqst/image/upload/v1730186650/WhatsApp_Image_2024-10-28_at_23.22.27_vst0pz.jpg" 
         des="Indulge in our exquisite catering services, featuring diverse menus crafted to perfection for any occasion. Let us elevate your event experience."
     />
 </div>

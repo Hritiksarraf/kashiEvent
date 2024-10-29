@@ -31,7 +31,7 @@ export default function Endcomponent() {
           marginwidth="0"
           id="gmap_canvas"
           style={{ filter: "grayscale(90%)" }}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.6857887409013!2d85.48955033646385!3d26.59207014043158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ecf191a5425485%3A0x9f9e41a5243efd7e!2sM.S%20TRADERS!5e0!3m2!1sen!2sin!4v1730146717410!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.7594990803527!2d85.48706617613419!3d26.592091776839837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ecf10021a9467b%3A0xf7d960e6c869cff6!2sKashi%20Event%20and%20Caterers!5e0!3m2!1sen!2sin!4v1730185715694!5m2!1sen!2sin"
         ></iframe>{" "}
         <script
           type="text/javascript"

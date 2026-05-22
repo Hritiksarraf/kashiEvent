@@ -66,7 +66,7 @@ export default function Footer() {
               <ul className="text-gray-400 -mx-6 font-medium">
                 <li className="mb-4 flex ">
                 
-                  <a href="https://www.instagram.com/kashieventandcaterers/profilecard/?igsh=M29taG5iNXVscW9t" target="_blank" className="hover:underline text-2xl no-underline text-pink-500  flex items-center -mx-2 hover:text-red-600 ">
+                  <a href="https://www.instagram.com/kashieventandcaterers/profilecard/?igsh=M29taG5iNXVscW9t" target="_blank" rel="noreferrer" className="hover:underline text-2xl no-underline text-pink-500  flex items-center -mx-2 hover:text-red-600 ">
                     <div className="inline mr-2 pb-2">
                   <ion-icon name="logo-instagram" size="large" className="text-xl mx-2"></ion-icon>
                   </div>

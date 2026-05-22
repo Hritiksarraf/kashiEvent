@@ -1,6 +1,4 @@
 import React from "react";
-import Accordion from "./accordion";
-import { Container } from "reactstrap";
 import Footer from "./footer2";
 
 export default function Endcomponent() {
@@ -25,6 +23,7 @@ export default function Endcomponent() {
         </div>
         <iframe
           className=" lg:w-1/2 w-[90vw] h-96 md:h-[30rem] mb-10"
+          title="Kashi Event and Caterers Location Map"
           frameborder="0"
           scrolling="no"
           marginheight="0"

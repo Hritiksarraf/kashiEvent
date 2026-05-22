@@ -6,7 +6,7 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import About_us from "./pages/about_us.js";
 import Gallery from "./pages/gallery.js";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 
 

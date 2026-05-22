@@ -1,6 +1,5 @@
 import React from 'react'
-import Card from "./card.js" 
-import {Container} from "reactstrap"
+import Card from "./card.js"
 
 
 

@@ -1,7 +1,4 @@
-import React, { useState } from 'react';
-import { UncontrolledCollapse } from 'reactstrap';
-import Carusal from '../components/carusal';
-import { GalleryWithTab } from '../components/galleryWithTab';
+import React from 'react';
 import Gallery2 from '../components/gallery2';
 
 export default function Gallery() {

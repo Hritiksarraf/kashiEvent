@@ -32,6 +32,7 @@ export default function Product(props) {
             <div class="relative rounded-md ">
               <img
                 src={props.img}
+                alt="Product image"
                 class="md:w-[50vw] object-cover md:h-[60vh]  rounded-3xl "
               />
               <div class="absolute rounded-3xl inset-0 bg-gradient-to-t lg:bg-gradient-to-l from-black to-transparent"></div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Contact_us from "../components/contact_us";
+import ContactUs from "../components/contact_us";
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
       ></div>
       {/* contact things */}
 
-      <Contact_us/>
+      <ContactUs/>
     </>
   );
 }

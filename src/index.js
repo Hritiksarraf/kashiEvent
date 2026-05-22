@@ -11,11 +11,11 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/home';
-import About_us from './pages/about_us';
+import AboutUs from './pages/about_us';
 import Gallery from './pages/gallery';
 import Events from './pages/Events';
 
-import Our_work from './pages/our_work';
+import OurWork from './pages/our_work';
 
 import Contact from './pages/contact';
 import { ThemeProvider } from "@material-tailwind/react";
@@ -24,10 +24,10 @@ const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
       <Route path='/' element={<Home/>}/>
-      <Route path='/about_us' element={<About_us/>}/>
+      <Route path='/about_us' element={<AboutUs/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/events' element={<Events/>}/>
-      <Route path='/our_work' element={<Our_work/>}/>
+      <Route path='/our_work' element={<OurWork/>}/>
       <Route path='/contact' element={<Contact/>}/>
       
 
